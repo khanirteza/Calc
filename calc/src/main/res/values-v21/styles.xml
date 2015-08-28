@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="regularButton" parent="@style/Widget.AppCompat.Button.Borderless">
+    <style name="regularButton" parent="android:Widget.Material.Button.Borderless" >
         <item name="android:gravity">center_vertical|center_horizontal</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_width">wrap_content</item>
@@ -18,7 +18,7 @@
         <item name="android:clickable">true</item>
     </style>
 
-    <style name="signButton" parent="@style/Widget.AppCompat.Button.Borderless">
+    <style name="signButton" parent="android:Widget.Material.Button.Borderless" >
         <item name="android:gravity">center_vertical|center_horizontal</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_width">wrap_content</item>

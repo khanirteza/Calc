@@ -2,4 +2,9 @@
 <resources>
     <color name="dark_pressed">#424242</color>
     <color name="dark">#616161</color>
+    <color name="red">#b71c1c</color>
+    <color name="red_pressed">#c62828</color>
+    <color name="light_dark">#757575</color>
+    <color name="light_dark_pressed">#424242</color>
+    <color name="sidebar">#18FFFF</color>
 </resources>

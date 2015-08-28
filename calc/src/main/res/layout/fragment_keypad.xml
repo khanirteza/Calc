@@ -1,225 +1,149 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="340dp"
-    tools:context=".KeypadFragment"
-    android:orientation="horizontal">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/dark"
+    tools:context=".KeypadFragment">
 
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_marginRight="-12dp"
         android:layout_weight="1"
-        android:layout_marginRight="-8dp">
+        android:orientation="vertical">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/factorial"
-            android:id="@+id/button"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_factorial"
+            style="@style/regularButton"
+            android:text="@string/factorial" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/seven"
-            android:id="@+id/button2"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_seven"
+            style="@style/regularButton"
+            android:text="@string/seven" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/four"
-            android:id="@+id/button3"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_four"
+            style="@style/regularButton"
+            android:text="@string/four" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/one"
-            android:id="@+id/button4"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_one"
+            style="@style/regularButton"
+            android:text="@string/one" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/decimal_point"
-            android:id="@+id/button5"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_decimal_point"
+            style="@style/regularButton"
+            android:text="@string/decimal_point" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_marginRight="-8dp"
         android:layout_weight="1"
-        android:layout_marginRight="-8dp">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/power"
-            android:id="@+id/button"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+        android:orientation="vertical">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/eight"
-            android:id="@+id/button2"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_power"
+            style="@style/regularButton"
+            android:text="@string/power" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/five"
-            android:id="@+id/button3"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_eight"
+            style="@style/regularButton"
+            android:text="@string/eight" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/two"
-            android:id="@+id/button4"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_five"
+            style="@style/regularButton"
+            android:text="@string/five" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/zero"
-            android:id="@+id/button5"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_two"
+            style="@style/regularButton"
+            android:text="@string/two" />
+
+        <Button
+            android:id="@+id/btn_zero"
+            style="@style/regularButton"
+            android:text="@string/zero" />
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_marginRight="-8dp"
         android:layout_weight="1"
-        android:layout_marginRight="-8dp">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/root"
-            android:id="@+id/button"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+        android:orientation="vertical">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nine"
-            android:id="@+id/button2"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_root"
+            style="@style/regularButton"
+            android:text="@string/root" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/six"
-            android:id="@+id/button3"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_nine"
+            style="@style/regularButton"
+            android:text="@string/nine" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/three"
-            android:id="@+id/button4"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_six"
+            style="@style/regularButton"
+            android:text="@string/six" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/equal"
-            android:id="@+id/button5"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_three"
+            style="@style/regularButton"
+            android:text="@string/three" />
+
+        <Button
+            android:id="@+id/btn_equals"
+            style="@style/regularButton"
+            android:text="@string/equal" />
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_marginRight="-8dp"
         android:layout_weight="1"
-        android:layout_marginRight="-8dp">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+        android:orientation="vertical">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/division"
-            android:id="@+id/button2"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_delete"
+            style="@style/regularButton"
+            android:text="A" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/multiplication"
-            android:id="@+id/button3"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_division"
+            style="@style/signButton"
+            android:text="@string/division" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/plus"
-            android:id="@+id/button4"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_multiplication"
+            style="@style/signButton"
+            android:text="@string/multiplication" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/minus"
-            android:id="@+id/button5"
-            android:layout_weight="1"
-            android:background="@drawable/button"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:id="@+id/btn_plus"
+            style="@style/signButton"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/btn_minus"
+            style="@style/signButton"
+            android:text="@string/minus" />
     </LinearLayout>
 
     <Button
-        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/btn_sidebar"
         android:layout_width="15dp"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button6"
-        />
+        android:layout_height="match_parent"
+        android:background="@color/sidebar" />
+
 </LinearLayout>
