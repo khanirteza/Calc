@@ -17,5 +17,10 @@
     <string name="minus">\u2212</string>
     <string name="multiplication">\u00D7</string>
     <string name="division">\u00F7</string>
+    <string name="decimal_point">.</string>
+    <string name="equal">\u003D</string>
+    <string name="root">\u221A</string>
+    <string name="factorial">!</string>
+    <string name="power">^</string>
 
 </resources>
